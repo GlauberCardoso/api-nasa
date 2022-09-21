@@ -27,7 +27,7 @@
       .then((dados) => {
         console.log(dados);
   
-       const div = document.querySelector("#buscar");
+       const div = document.querySelector("#nasa");
 
        div.innerHTML = `
           <h1>${dados.title}</h1>

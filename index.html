@@ -7,14 +7,16 @@
     <title>API Nasa</title>
 </head>
 <body>
-    <label for="data">
-        
-        <h1>Escolha uma data para ver a imagem: </h1>
+    
+        <label for="data">
+            <h1>Escolha uma data para ver a imagem: </h1>
 
-    </label>
-
-    <input type="date" name="data" id="data" onblur="data(this.value)">
-    <button type="submit" id="buscar">Buscar</button>
+            <input type="date" name="data" id="data" onblur="data(this.value)">
+            <button type="submit" id="buscar">Buscar</button>
+            <button type="reset" name="data">Limpar</button>
+        </label>
+            
+            <div id="nasa"></div>
     
 
     <script src="nasa.js"></script>
